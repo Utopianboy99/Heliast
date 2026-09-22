@@ -32,14 +32,14 @@ function IdealClient() {
           ))}
         </div>
 
-        <div className="qualify-box">
+        {/* <div className="qualify-box">
           <p className="qualify-label">Not every business is a Heliast client.</p>
           <ul>
             {exclusions.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );
