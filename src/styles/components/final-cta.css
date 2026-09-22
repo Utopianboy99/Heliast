@@ -1,0 +1,47 @@
+.final-cta-section {
+  padding: clamp(3rem, 7vw, 7rem) 0 1.5rem;
+}
+
+.final-cta-shell {
+  padding: clamp(2rem, 4vw, 3rem);
+  border: 1px solid var(--color-border);
+  border-radius: 1.8rem;
+  background: rgba(255, 255, 255, 0.78);
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+}
+
+.final-cta-shell h2 {
+  margin-top: 1rem;
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.06em;
+  color: var(--color-navy-950);
+}
+
+.final-cta-secondary {
+  margin-top: 0.7rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2vw, 2.2rem);
+  color: var(--color-blue-600);
+  letter-spacing: -0.04em;
+}
+
+.final-cta-copy {
+  max-width: 740px;
+  margin: 1.2rem auto 0;
+  color: var(--color-slate-700);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.final-cta-actions {
+  margin-top: 1.75rem;
+}
+
+.final-cta-footnote {
+  margin-top: 1rem;
+  color: var(--color-slate-500);
+  font-size: 0.92rem;
+}
